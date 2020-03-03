@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-image{
+    background-image: url(' https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center 25%;
+}
+.cover{
+    height: 60vh;
+    background: rgba(0,0,0,0.5);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin: 0;
+}
+ul li{
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: underline;
+    /* color: blue; */
+}
+.box{
+    margin-left: 100px;
+}
+.box h3{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+.btn{
+    width: 200px;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: rgba(0,119,255,1);
+}
+.box .btn:hover{
+    opacity: 0.9;
+}
